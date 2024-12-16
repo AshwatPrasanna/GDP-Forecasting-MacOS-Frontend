@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		73DF07B52D104868008A6F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73DF079B2D104867008A6F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73DF07A22D104867008A6F6E;
+			remoteInfo = "GDP Prediction Frontend";
+		};
+		73DF07BF2D104868008A6F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73DF079B2D104867008A6F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73DF07A22D104867008A6F6E;
+			remoteInfo = "GDP Prediction Frontend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73DF07A32D104867008A6F6E /* GDP Prediction Frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDP Prediction Frontend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73DF07B42D104868008A6F6E /* GDP Prediction FrontendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GDP Prediction FrontendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73DF07BE2D104868008A6F6E /* GDP Prediction FrontendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GDP Prediction FrontendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		73DF07A52D104867008A6F6E /* GDP Prediction Frontend */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GDP Prediction Frontend";
+			sourceTree = "<group>";
+		};
+		73DF07B72D104868008A6F6E /* GDP Prediction FrontendTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GDP Prediction FrontendTests";
+			sourceTree = "<group>";
+		};
+		73DF07C12D104868008A6F6E /* GDP Prediction FrontendUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GDP Prediction FrontendUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73DF07A02D104867008A6F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73DF07B12D104868008A6F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73DF07BB2D104868008A6F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73DF079A2D104867008A6F6E = {
+			isa = PBXGroup;
+			children = (
+				73DF07A52D104867008A6F6E /* GDP Prediction Frontend */,
+				73DF07B72D104868008A6F6E /* GDP Prediction FrontendTests */,
+				73DF07C12D104868008A6F6E /* GDP Prediction FrontendUITests */,
+				73DF07A42D104867008A6F6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73DF07A42D104867008A6F6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73DF07A32D104867008A6F6E /* GDP Prediction Frontend.app */,
+				73DF07B42D104868008A6F6E /* GDP Prediction FrontendTests.xctest */,
+				73DF07BE2D104868008A6F6E /* GDP Prediction FrontendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73DF07A22D104867008A6F6E /* GDP Prediction Frontend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73DF07C82D104868008A6F6E /* Build configuration list for PBXNativeTarget "GDP Prediction Frontend" */;
+			buildPhases = (
+				73DF079F2D104867008A6F6E /* Sources */,
+				73DF07A02D104867008A6F6E /* Frameworks */,
+				73DF07A12D104867008A6F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				73DF07A52D104867008A6F6E /* GDP Prediction Frontend */,
+			);
+			name = "GDP Prediction Frontend";
+			packageProductDependencies = (
+			);
+			productName = "GDP Prediction Frontend";
+			productReference = 73DF07A32D104867008A6F6E /* GDP Prediction Frontend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73DF07B32D104868008A6F6E /* GDP Prediction FrontendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73DF07CB2D104868008A6F6E /* Build configuration list for PBXNativeTarget "GDP Prediction FrontendTests" */;
+			buildPhases = (
+				73DF07B02D104868008A6F6E /* Sources */,
+				73DF07B12D104868008A6F6E /* Frameworks */,
+				73DF07B22D104868008A6F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73DF07B62D104868008A6F6E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				73DF07B72D104868008A6F6E /* GDP Prediction FrontendTests */,
+			);
+			name = "GDP Prediction FrontendTests";
+			packageProductDependencies = (
+			);
+			productName = "GDP Prediction FrontendTests";
+			productReference = 73DF07B42D104868008A6F6E /* GDP Prediction FrontendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73DF07BD2D104868008A6F6E /* GDP Prediction FrontendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73DF07CE2D104868008A6F6E /* Build configuration list for PBXNativeTarget "GDP Prediction FrontendUITests" */;
+			buildPhases = (
+				73DF07BA2D104868008A6F6E /* Sources */,
+				73DF07BB2D104868008A6F6E /* Frameworks */,
+				73DF07BC2D104868008A6F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73DF07C02D104868008A6F6E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				73DF07C12D104868008A6F6E /* GDP Prediction FrontendUITests */,
+			);
+			name = "GDP Prediction FrontendUITests";
+			packageProductDependencies = (
+			);
+			productName = "GDP Prediction FrontendUITests";
+			productReference = 73DF07BE2D104868008A6F6E /* GDP Prediction FrontendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73DF079B2D104867008A6F6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					73DF07A22D104867008A6F6E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					73DF07B32D104868008A6F6E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 73DF07A22D104867008A6F6E;
+					};
+					73DF07BD2D104868008A6F6E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 73DF07A22D104867008A6F6E;
+					};
+				};
+			};
+			buildConfigurationList = 73DF079E2D104867008A6F6E /* Build configuration list for PBXProject "GDP Prediction Frontend" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73DF079A2D104867008A6F6E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 73DF07A42D104867008A6F6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73DF07A22D104867008A6F6E /* GDP Prediction Frontend */,
+				73DF07B32D104868008A6F6E /* GDP Prediction FrontendTests */,
+				73DF07BD2D104868008A6F6E /* GDP Prediction FrontendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73DF07A12D104867008A6F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73DF07B22D104868008A6F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73DF07BC2D104868008A6F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73DF079F2D104867008A6F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73DF07B02D104868008A6F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73DF07BA2D104868008A6F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73DF07B62D104868008A6F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73DF07A22D104867008A6F6E /* GDP Prediction Frontend */;
+			targetProxy = 73DF07B52D104868008A6F6E /* PBXContainerItemProxy */;
+		};
+		73DF07C02D104868008A6F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73DF07A22D104867008A6F6E /* GDP Prediction Frontend */;
+			targetProxy = 73DF07BF2D104868008A6F6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73DF07C62D104868008A6F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73DF07C72D104868008A6F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		73DF07C92D104868008A6F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GDP Prediction Frontend/GDP_Prediction_Frontend.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3JUN8CJ35;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwat.GDP-Prediction-Frontend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		73DF07CA2D104868008A6F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GDP Prediction Frontend/GDP_Prediction_Frontend.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3JUN8CJ35;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwat.GDP-Prediction-Frontend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		73DF07CC2D104868008A6F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3JUN8CJ35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwat.GDP-Prediction-FrontendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDP Prediction Frontend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GDP Prediction Frontend";
+			};
+			name = Debug;
+		};
+		73DF07CD2D104868008A6F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3JUN8CJ35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwat.GDP-Prediction-FrontendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDP Prediction Frontend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GDP Prediction Frontend";
+			};
+			name = Release;
+		};
+		73DF07CF2D104868008A6F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3JUN8CJ35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwat.GDP-Prediction-FrontendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GDP Prediction Frontend";
+			};
+			name = Debug;
+		};
+		73DF07D02D104868008A6F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3JUN8CJ35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwat.GDP-Prediction-FrontendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GDP Prediction Frontend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73DF079E2D104867008A6F6E /* Build configuration list for PBXProject "GDP Prediction Frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DF07C62D104868008A6F6E /* Debug */,
+				73DF07C72D104868008A6F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73DF07C82D104868008A6F6E /* Build configuration list for PBXNativeTarget "GDP Prediction Frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DF07C92D104868008A6F6E /* Debug */,
+				73DF07CA2D104868008A6F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73DF07CB2D104868008A6F6E /* Build configuration list for PBXNativeTarget "GDP Prediction FrontendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DF07CC2D104868008A6F6E /* Debug */,
+				73DF07CD2D104868008A6F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73DF07CE2D104868008A6F6E /* Build configuration list for PBXNativeTarget "GDP Prediction FrontendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DF07CF2D104868008A6F6E /* Debug */,
+				73DF07D02D104868008A6F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73DF079B2D104867008A6F6E /* Project object */;
+}
